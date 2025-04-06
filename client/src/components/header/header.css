@@ -1,0 +1,31 @@
+.header {
+    margin-top: 60px;
+    position: relative;
+}
+
+.headerTitles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Lora', serif;
+    color: #444;
+    margin-bottom: 40px; /* Add this to create gap between titles and image */
+}
+
+.headerTitleSm {
+    font-size: 20px;
+    position: relative; /* Change from absolute to relative */
+}
+
+.headerTitleLg {
+    color: #e74c3c;
+    font-size: 78px;
+    position: relative; /* Change from absolute to relative */
+    margin: -10px 0; /* Adjust margin as needed */
+}
+
+.headerImg {
+    width: 100%;
+    height: 450px;
+    /* Remove margin-top and let the margin-bottom on headerTitles create the gap */
+}

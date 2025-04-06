@@ -1,0 +1,80 @@
+.settings {
+    display: flex;
+    background-color: #F8F9FA; /* Light gray background */
+}
+.settingsWrapper {
+    flex: 9;
+    padding: 20px;
+}
+.settingsTitle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.settingsUpdateTitle {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #007BFF; /* Vibrant blue */
+}
+.settingsDeleteTitle {
+    color: #DC3545; /* Red for delete */
+    font-size: 12px;
+    cursor: pointer;
+}
+.settingsForm {
+    display: flex;
+    flex-direction: column;
+}
+.settingsPP {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+.settingsPP > img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #007BFF; /* Blue outline for profile image */
+}
+.settingsPPIcon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #6C757D; /* Muted gray */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.settingsForm > label {
+    font-size: 18px;
+    margin-top: 20px;
+    color: #333333; /* Dark text */
+}
+.settingsForm > input {
+    color: #333333;
+    margin: 10px 0;
+    height: 35px;
+    border: 1px solid #CCCCCC; 
+    border-radius: 5px;
+    padding: 5px;
+    outline: none;
+}
+.settingsSubmit {
+    width: 150px;
+    align-self: center;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: #007BFF; /* Blue button */
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.settingsSubmit:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
